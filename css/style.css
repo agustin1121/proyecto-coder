@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;600&display=swap');
+
+
+
+/*-----reset---*/
+
+* { 
+    margin: 0;
+    padding: 0;
+   
+}
+
+/*-----header---*/
+
+header { 
+    background-color: aqua;
+
+    
+
+}
+
+
+header h1 { 
+    color: blue;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif; ;
+    font-style: italic;
+    font-weight: 900;
+    text-align: center;
+
+}
+
+header p { 
+    color: blue;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif; ;
+    font-style: italic;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+header nav ul{ 
+    color: red ;
+    font-family: 'Oswald', sans-serif; ;
+    
+}
+
+
+header nav ul li { 
+    display: inline-block;
+    margin: 5px;
+   
+   
+        
+    
+}
+    
+    
+
+
+header nav ul li a{ 
+    text-decoration: none;
+    color: black;
+    
+    
+
+}
+
+.preguntas { 
+    color: blue;
+   
+
+}
+
+h2 { 
+    color: red ;
+
+}
+
+.trabajos {
+    width: 100%;
+    height: calc(100vh - 130px);
+    background-image: url(../img/pínamar.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.trabajos h2 { 
+    color: blue;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif; ;    font-style: italic;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.trabajos p { 
+    color: blue;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-style:oblique;
+    font-weight: 900;
+    text-align:left;
+
+}
+
+.ofertas {
+    width: 100%;
+    height: calc(100vh - 130px);
+    background-image: url(../img/fondoferta.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.preguntas {
+    width: 100%;
+    height: calc(100vh - 130px);
+    background-image: url(../img/pínamar.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
